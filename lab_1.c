@@ -120,7 +120,7 @@ int main() {
 	_strlwr(chislo_full);
 
 	if (test_input(chislo_full, length, not1, not2) == 1) {
-		fprintf(oFile, "test");
+		fprintf(oFile, "bad input");
 		return 0;
 	}
 	if (not1 == not2) {
